@@ -11,27 +11,29 @@
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/909f0af900.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <!-- Navigation -->
-    <div class="content-header">
+    <div class="content-header" id="#inicio">
         <div class="navigation">
             <div class="container">
                 <nav class="navbar-nav">
                     <img src="img/logo.png" alt="" id="logo">
                     <ul class="nav-link">
                         <li class="nav-item">
-                            <a href="#">Inicio</a>
+                            <a href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Serviços</a>
+                            <a href="#servicos">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Sobre</a>
+                            <a href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Contato</a>
+                            <a href="#contato">Contato</a>
                         </li>
                     </ul>
                     <a href="#" class="btn-planos">Conhecer Planos</a>
@@ -65,7 +67,7 @@
     <!-- Finish Navigation -->
 
     <section class="main">
-        <div class="services">
+        <div class="services" id="servicos">
             <div class="container">
                 <div class="title">
                     <h1>Conheça Nosso Serviços</h1>
@@ -166,24 +168,105 @@
         </div>
     </section>
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         <div class="container">
             <div class="sb-title">
                 <h1>Sobre Nós</h1>
             </div>
             <div class="sb-sub-title">
-                <p>
-                    A Dental Clean é uma empresa de limpeza dentária que oferece serviços de limpeza profissional,
-                    clareamento e manutenção de dentes para indivíduos e famílias. Nós utilizamos
-                    técnicas e equipamentos de última geração para garantir que os pacientes obtenham os melhores resultados
-                    possíveis. Além disso, a equipe a nossa equipe é altamente
-                    treinada e experiente, oferecendo atendimento personalizado e orientação para garantir que os pacientes
-                    mantenham uma boa saúde bucal. Nós também oferecemos horários
+                <p style="font-size: 18px; display: flex; justify-content: center;">
+                    &nbsp&nbsp&nbsp A Dental Clean é uma empresa de limpeza dentária que oferece serviços de limpeza
+                    profissional, clareamento e manutenção de dentes para indivíduos e famílias. <br>
+                    Nós utilizamos técnicas e equipamentos de última geração para garantir que os pacientes obtenham os
+                    melhores resultados possíveis. Além disso, a equipe a nossa <br>
+                    equipe é altamente treinada e experiente, oferecendo atendimento personalizado e orientação para
+                    garantir que os pacientes mantenham uma boa saúde bucal. <br>
+                    Nós também oferecemos horários
                     flexíveis para atender às necessidades dos pacientes.
                 </p>
             </div>
+
+            <div class="cads-employee">
+                <div class="emp-card">
+                    <div class="emp-title">
+                        <img src="img/amanda.png" alt="" id="pht-employee">
+                        <h3 style="margin-left: 10px;">Cristiano Moreira
+                            <p style="font-size: 14px; font-weight: 400;">Dentista/Professora</p>
+                        </h3>
+                    </div>
+
+                    <div class="emp-sub-title">
+                        <p>Olá, me chamo Amanda e trabalho como Dentista
+                            a quase 15 anos, sou professora em algumas
+                            universidades a 6 anos e meio.</p>
+                    </div>
+                </div>
+                <div class="emp-card">
+                    <div class="emp-title">
+                        <img src="img/arthur.png" alt="" id="pht-employee">
+                        <h3 style="margin-left: 10px;">Arthur Valadares
+                            <p style="font-size: 14px; font-weight: 400;">Dentista/Professor</p>
+                        </h3>
+                    </div>
+
+                    <div class="emp-sub-title">
+                        <p>Meu nome e Arthur, sou Dentista a cerca de 7 anos
+                            e meio e me orgulho da profissa em qual eu escolhi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="emp-card">
+                    <div class="emp-title">
+                        <img src="img/julia.png" alt="" id="pht-employee">
+                        <h3 style="margin-left: 10px;">Julia Silva
+                            <p style="font-size: 14px; font-weight: 400;">Dentista/Professora</p>
+                        </h3>
+                    </div>
+
+                    <div class="emp-sub-title">
+                        <p>Me chamo Julia, sou Dentista a 3 anos e amo de
+                            paixão o que eu faço.
+                            Estou fazendo uma pós graduação na área
+                            e não quero sair mais. Amo ver as pessoas com um sorriso cada dia mais bonito.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section class="trabalhos-recentes">
+        <div class="container">
+            <div class="tbr-title">
+                <h1>Trabalhos Recentes</h1>
+            </div>
+
+            <div class="imgs">
+                <img src="img/img1.png" alt="" id="img1">
+                <img src="img/img2.png" alt="" id="img2">
+                <div class="imgs2">
+                    <img src="img/img3.png" alt="" id="img3">
+                    <img src="img/img4.png" alt="" id="img4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h1>Newsletter</h1>
+            <p>Se inscreva para não perder as novidades!</p>
+        </div>
+        <div class="submit">
+            <input type="email" name="submit" placeholder="Email" maxlength="38">
+            <button class="btn-submit"><i class="fas fa-arrow-right bx-fade-right-hover"></i></button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Copyright © 2023 | Cristiano Moreira</p>
+        </div>
+    </footer>
 </body>
 
 </html>
